@@ -5,19 +5,25 @@
   .heading {
     font-size: 3rem;
     font-weight: 300;
+    margin-bottom: 0.5em;
   }
   .topics {
     padding: 0 2em;
     p {
-      margin-bottom: 1em;
+      margin-bottom: 0.3em;
       font-weight: 600;
       color: var(--clr-gray-400);
     }
     .topicsList {
-      width: 70%;
       button {
         margin: 0.3em 0.1em;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
 }
