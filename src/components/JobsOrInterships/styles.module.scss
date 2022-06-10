@@ -1,12 +1,13 @@
 .container {
-  background-color: var(--clr-gray-200);
+  background-color: white;
   display: flex;
   padding: 3em 5em;
   .heading {
     font-size: 3rem;
+    flex: 95%;
     font-weight: 300;
-    flex: 80%;
     margin-bottom: 0.5em;
+    word-spacing: 0.1em;
   }
   .topics {
     padding: 0 2em;

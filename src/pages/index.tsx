@@ -1,4 +1,9 @@
-import { ExploreTopics, Header, WelcomeToCommunity } from "@Components/exports";
+import {
+  ExploreTopics,
+  Header,
+  JobsOrInterships,
+  WelcomeToCommunity,
+} from "@Components/exports";
 import type { NextPage } from "next";
 
 const IndexPage: NextPage = () => {
@@ -7,6 +12,7 @@ const IndexPage: NextPage = () => {
       <Header />
       <WelcomeToCommunity />
       <ExploreTopics />
+      <JobsOrInterships />
     </>
   );
 };
