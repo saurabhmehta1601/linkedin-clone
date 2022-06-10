@@ -1,3 +1,4 @@
+export { ExploreTopics } from "./ExploreTopics";
 export { RightArrowIcon } from "./RightArrowIcon";
 export { WelcomeToCommunity } from "./WelcomeToCommunity";
 export { DesktopView, MobileView } from "./Views";
