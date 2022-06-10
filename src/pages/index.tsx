@@ -1,13 +1,7 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-
-import Counter from '../features/counter/Counter'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
 
 const IndexPage: NextPage = () => {
-  return (
-    <div>Hello world</div>
-  )
-}
+  return <div>Hello world</div>;
+};
 
-export default IndexPage
+export default IndexPage;
