@@ -1,5 +1,6 @@
 import {
   Button,
+  DesktopView,
   DiscoverIcon,
   JobsIcon,
   LearningIcon,
@@ -16,27 +17,29 @@ export const Header = () => {
       <div className={styles.logoContainer}>
         <LinkedInLogo />
       </div>
-      {/* NavIconList Logo */}
-      <div className={styles.navIconList}>
-        <div className={styles.navIcon}>
-          <DiscoverIcon />
-          <p>Discover</p>
+      <DesktopView>
+        {/* NavIconList Logo */}
+        <div className={styles.navIconList}>
+          <div className={styles.navIcon}>
+            <DiscoverIcon />
+            <p>Discover</p>
+          </div>
+          <div className={styles.navIcon}>
+            <PeopleIcon />
+            <p>People</p>
+          </div>
+          <div className={styles.navIcon}>
+            <LearningIcon />
+            <p>Learn</p>
+          </div>
+          <div className={styles.navIcon}>
+            <JobsIcon />
+            <p>Jobs</p>
+          </div>
         </div>
-        <div className={styles.navIcon}>
-          <PeopleIcon />
-          <p>People</p>
-        </div>
-        <div className={styles.navIcon}>
-          <LearningIcon />
-          <p>Learn</p>
-        </div>
-        <div className={styles.navIcon}>
-          <JobsIcon />
-          <p>Jobs</p>
-        </div>
-      </div>
-      {/* Separator */}
-      <div className={styles.separator}></div>
+        {/* Separator */}
+        <div className={styles.separator}></div>
+      </DesktopView>
       {/* NavAuthButtons */}
       <div className={styles.navAuthButtons}>
         <Button variant="transparent" color="secondary">

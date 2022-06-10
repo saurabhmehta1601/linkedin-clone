@@ -1,3 +1,4 @@
+export { DesktopView, MobileView } from "./Views";
 export { Button } from "./Button";
 export { DiscoverIcon } from "./DiscoverIcon";
 export { JobsIcon } from "./JobsIcon";
