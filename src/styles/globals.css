@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 
 :root {
-  --clr-gray-100: #f5f5f5;
+  --clr-gray-100: #fff;
   --clr-gray-400: rgba(0, 0, 0, 0.6);
   --clr-blue-300: #0a66c2;
   --clr-bg--hover: rgba(0, 0, 0, 0.03);
+  --clr-brown-300: #8f5849;
 }
 
 *,

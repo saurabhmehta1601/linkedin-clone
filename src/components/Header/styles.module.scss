@@ -9,24 +9,6 @@
       width: 9rem;
     }
   }
-  .navIconList {
-    display: flex;
-    align-items: center;
-    column-gap: 2em;
-    color: var(--clr-gray-400);
-    .navIcon {
-      flex: 1;
-      min-width: 3rem;
-      display: grid;
-      place-items: center;
-      p {
-        margin-top: 0.2em;
-      }
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
   .navAuthButtons {
     display: flex;
     column-gap: 0.4em;
@@ -34,10 +16,30 @@
       flex: 1;
     }
   }
-  .separator {
-    width: 0.9px;
-    margin: 0 1em;
-    background-color: var(--clr-gray-400);
-    height: 6.8vh;
+}
+
+.separator {
+  width: 0.9px;
+  margin: 0 1em;
+  background-color: var(--clr-gray-400);
+  height: 6.8vh;
+}
+
+.navIconList {
+  display: flex;
+  align-items: center;
+  column-gap: 2em;
+  color: var(--clr-gray-400);
+  .navIcon {
+    flex: 1;
+    min-width: 3rem;
+    display: grid;
+    place-items: center;
+    p {
+      margin-top: 0.2em;
+    }
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
