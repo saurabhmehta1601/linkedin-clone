@@ -38,12 +38,14 @@ export const Header = () => {
       {/* Separator */}
       <div className={styles.separator}></div>
       {/* NavAuthButtons */}
-      <Button variant="transparent" color="secondary">
-        Join now
-      </Button>
-      <Button variant="outlined" color="primary">
-        Sign in
-      </Button>
+      <div className={styles.navAuthButtons}>
+        <Button variant="transparent" color="secondary">
+          Join now
+        </Button>
+        <Button variant="outlined" color="primary">
+          Sign in
+        </Button>
+      </div>
     </header>
   );
 };
