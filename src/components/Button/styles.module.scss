@@ -1,0 +1,33 @@
+.button {
+  cursor: pointer;
+  background: none;
+  border-radius: 32px;
+  padding: 1em 1.4em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.outlined.primary {
+  border: 2px solid var(--clr-blue-300);
+}
+
+.outlined.secondary {
+  border: 2px solid var(--clr-blue-300);
+}
+
+.primary {
+  color: var(--clr-blue-300);
+  &:hover {
+    background-color: rgba(135, 155, 253, 0.121);
+  }
+}
+
+.secondary {
+  color: var(--clr-gray-400);
+  &:hover {
+    background-color: rgba(135, 155, 253, 0.121);
+  }
+}
+
+.transparent {
+  border: none;
+}

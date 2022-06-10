@@ -1,3 +1,4 @@
+export { Button } from "./Button";
 export { DiscoverIcon } from "./DiscoverIcon";
 export { JobsIcon } from "./JobsIcon";
 export { LearningIcon } from "./LearningIcon";
